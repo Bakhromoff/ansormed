@@ -8,6 +8,7 @@ body{
   color: #444;
   font-size: 16px;
   line-height: 1.5;
+  background-color: #fff;
 }
 
 /* CONTAINER */
@@ -18,4 +19,33 @@ body{
   padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+/* HEADER */
+.site-header-logo{
+  display: flex;
+  align-items: center;
+}
+.site-header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-nav-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-nav-item{
+  list-style: none;
+}
+.main-link{
+  text-decoration: none;
+}
+.logo-text{
+  text-decoration: none;
 }
