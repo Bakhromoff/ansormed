@@ -48,6 +48,7 @@ align-items: center;
 justify-content: space-between;
 padding: 0;
 margin-top: 24px;
+margin-bottom: 24px;
 }
 .site-header-nav{
   display: flex;
@@ -99,19 +100,22 @@ background-color: #0EB4C1;
 display: flex;
 justify-content: space-between;
 }
+.hero-content{
+  margin-top: 120px;
+  margin-bottom: 120px;
+  width: 500px;
+  height: 293px;
+  }
 .hero-heading{
   margin: 0;
+  margin-bottom: 16px;
 }
 .hero-text{
   margin: 0;
-}
-.hero-content{
-margin-top: 120px;
-width: 500px;
-height: 293px;
+  margin-bottom: 36px;
 }
 .hero-image{
-  margin-top: 29px;
+margin-top: 29px;
 width: 423px;
 height: 504px;
 }
