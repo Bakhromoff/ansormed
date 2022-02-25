@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 *:focus{
-  outline: dotted #000000;
+  outline: dotted #f0cd0be8;
   outline-offset: 3px;
 }
 body{
@@ -25,7 +25,7 @@ body{
   margin-right: auto;
 }
 /* HEADER */
-site-header{
+.site-header-container{
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -77,25 +77,27 @@ margin-bottom: 24px;
   justify-content: space-between;
 }
 .site-nav-item{
-letter-spacing: 2px;
-text-transform: uppercase;
-font-weight: bold;
-font-size: 14px;
-line-height: 150%;
-color: #222222;
-margin-right: 32px;
 list-style: none;
-transition: color 0.4s ease, opacity 0.4s ease;
+ margin-right: 32px;
 }
 .site-nav-item:last-child{
   margin: 0;}
-.site-nav-item:hover{
+.sitenav-items{
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;
+  color: #222222;
+  transition: color 0.4s ease, opacity 0.4s ease;
+}
+.sitenav-items:hover{
   color: #DE2E54;
 }
-.site-nav-item:active{
-  opacity: 0.6;
+.sitenav-items:active{
+opacity: 0.6;
 }
-
 .main-link{
 text-decoration: none;
 display: flex;
@@ -267,15 +269,16 @@ border: 2px solid #DE2E54;
 .site-footer-container{
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: space-between;
 padding: 0;
 padding-top: 24px;
 padding-bottom: 24px;
 }
 .footer-section{
-  background-color: #222222;
+background-color: #222222;
 height: 98px;
 }
+
 .site-footer-logo{
   display: flex;
   align-items: center;
@@ -293,7 +296,6 @@ line-height: 33px;
 width: 119px;
 height: 33px;
 color: #FFFFFF;
-margin-right: 418px;
 transition: color 0.4s ease;
 }
 .footer-logo-text:hover{
@@ -307,22 +309,25 @@ transition: color 0.4s ease;
   margin: 0;
 }
 .footer-nav-item{
-text-transform: uppercase;
-color: #FFFFFF;
 list-style: none;
-letter-spacing: 2px;
 margin-right: 32px;
-font-size: 14px;
-line-height: 150%;
-transition: color 0.4s ease, opacity 0.4s ease;
 }
 .footer-nav-item:last-child{
   margin: 0;
 }
-.footer-nav-item:hover{
+.footernav-items{
+text-decoration: none;
+text-transform: uppercase;
+color: #FFFFFF;
+letter-spacing: 2px;
+font-size: 14px;
+line-height: 150%;
+transition: color 0.4s ease, opacity 0.4s ease;
+}
+.footernav-items:hover{
   color: #DE2E54;
 }
-.footer-nav-item:active{
+.footernav-items:active{
 color: #FFFFFF;
 opacity: 0.6;
 }
